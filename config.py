@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "Hinatahyuga")
 # ---------------------------------------------------------
 EXTRA_PLUGINS = getenv(
     "EXTRA_PLUGINS",
-    "true",
+    "false",
 )
 
 
