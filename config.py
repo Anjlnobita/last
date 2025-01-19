@@ -24,6 +24,19 @@ BOT_NAME = getenv("BOT_NAME" , "hinata")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "Hinatahyuga")
 # ---------------------------------------------------------
+EXTRA_PLUGINS = getenv(
+    "EXTRA_PLUGINS",
+    "true",
+)
+
+
+EXTRA_PLUGINS_REPO = getenv(
+    "EXTRA_PLUGINS_REPO",
+    "https://github.com/anjlnobita/neow",
+)
+
+
+EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
 
 #---------------------------------------------------------------
