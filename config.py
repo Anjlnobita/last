@@ -44,7 +44,7 @@ EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-
+TOKEN_ALLOW = os.getenv("TOKEN_ALLOW", "true")
 # ----------------------------------------------------------------
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 5400))
 # ----------------------------------------------------------------
