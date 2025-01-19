@@ -40,7 +40,7 @@ async def init():
         if hasattr(imported_module, "__MODULE__") and imported_module.__MODULE__:
             if hasattr(imported_module, "__HELP__") and imported_module.__HELP__:
                 HELPABLE[imported_module.__MODULE__.lower()] = imported_module
-    LOGGER("VIPMUSIC.plugins").info("Successfully Imported All Modules ")
+    LOGGER("AnonXMusic.plugins").info("Successfully Imported All Modules ")
     await userbot.start()
     await Anony.start()
     try:
